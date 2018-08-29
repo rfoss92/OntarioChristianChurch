@@ -2,7 +2,7 @@ html, body {
   height: 100%;
 }
 body {
-  font: bold16px "Arial";
+  font: 16px Rockwell;
   color: #1c1c1c;
   background: white;
   text-align: center;
@@ -12,16 +12,18 @@ body {
   background-size: cover;
 }
 .layer {
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, .5) 20%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, .5) 15%);
 }
 h1 {
   color: white;
   font-size: 3rem;
   font-weight: 900;
+  font-family: Arial;
   margin: 0 6%;
   padding: 75px 0 1% 0;
 }
 h2 {
+  font-family: Arial;
   font-size: 3rem;
   font-weight: 900;
   margin: 6%;
@@ -30,6 +32,7 @@ h3 {
   bottom: 2%;
   font-size: 2.5rem;
   font-weight: 900;
+    font-family: Arial;
   text-align: left;
   margin-left: 6%;
 }
